@@ -1,3 +1,9 @@
+% Submodule for the creation of simulation spaces consisting of spheres of equal diameter.
+
+% (C) 2018 Tiago Monteiro Cardoso
+% Last update: 2018-12-08
+
+
 function bin_matrix = monospheres( N,PHI,RES )
 % Creates monospheres
 
