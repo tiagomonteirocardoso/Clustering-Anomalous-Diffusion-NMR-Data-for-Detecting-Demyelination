@@ -1,3 +1,10 @@
+% Submodule for the computation of the field due to internal (susceptibility induced) gradients.
+% It is necessary to manually 'activate' either line 12 or 15 (variable "logicalmat"), if the simulation being performed is 
+% in a space containing respectively spheres or axons.
+
+% (C) 2018 Tiago Monteiro Cardoso
+% Last update: 2018-12-08
+
 function B = internal_gradient(x,y,z,file_geometry,deltachi,B0)
 
 load(file_geometry, 'connected_matrix', 'Diam')
