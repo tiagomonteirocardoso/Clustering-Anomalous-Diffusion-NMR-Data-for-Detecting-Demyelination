@@ -1,6 +1,9 @@
 % Main Program for the Signal Calculation Block (1) including multiple
 % experiments; 2) Signal Calculation based on displacements from initial
-% position); 3) Single rando walk file; 4) no selection; and 5) Made for the Axons simulations
+% position); 3) Single random walk file; and 4) Made for the Axons simulations
+
+% (C) 2018 Tiago Monteiro Cardoso
+% Last update: 2018-12-08
 
 clear
 
