@@ -1,11 +1,15 @@
-% Main Program for the Signal Calculation Block (spheres) including 
+%{ 
 
-% (1) multiple experiments and (2) signal calculation based on the displacements from initial position. 
-% Made for the spheres simulations. Please note that experimental time (variable "delta") is NOT fixed. Consequently, 
-% the values of variable bfield depend on both experimental time AND the gradient values employed.
+Main Program for the Signal Calculation Block (spheres) including: 
 
-% (C) 2018 Tiago Monteiro Cardoso
-% Last update: 2018-12-08
+(1) multiple experiments and (2) signal calculation based on the displacements from initial position. 
+Made for the spheres simulations. Please note that experimental time (variable "delta") is NOT fixed. Consequently, 
+the values of variable bfield depend on both experimental time AND the gradient values employed.
+
+(C) 2018 Tiago Monteiro Cardoso
+Last update: 2018-12-08
+
+%}
 
 clear
 
