@@ -1,7 +1,12 @@
-% Main Program for the Geometry Block
+%{
 
-% (C) 2018 Tiago Monteiro Cardoso
-% Last update: 2018-12-08
+Main Program for the Geometry Block
+
+(C) 2018 Tiago Monteiro Cardoso
+Last update: 2018-12-08
+
+%}
+
 
 clear
 geometry_type = input ('Type of Geometry: ','s');
