@@ -1,6 +1,10 @@
+% Function for creating random walk trajectories inside spaces containing spheres
+
+% (C) 2018 Tiago Monteiro Cardoso
+% Last update: 2018-12-08
+
+
 function random_walk_function_little_spheres(TE)
-% same as Random_walk but it's a function, unique file and for the little
-% spheres
 
 filename = 'spheres_500_54_256_I.mat';
 
