@@ -1,5 +1,10 @@
+% Function for creating random walk trajectories inside 'axonal tracts'
+
+% (C) 2018 Tiago Monteiro Cardoso
+% Last update: 2018-12-08
+
+
 function random_walk_function_axons_II
-% same as Random_walk but it's a function, unique file and for the axons
 
 filename = 'interaxon_post256_PHI_80_DEM_60_XIII.mat';
 
