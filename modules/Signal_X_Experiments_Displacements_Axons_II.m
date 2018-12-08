@@ -1,4 +1,4 @@
-% Main Program for the Signal Calculation Block including 
+% Main Program for the Signal Calculation Block (axons) including 
 
 % (1) multiple experiments and (2) signal calculation based on the displacements from initial position. 
 % Made for the Axons simulations. Please note that experimental time ("delta") is fixed. Consequently, the values of variable 
