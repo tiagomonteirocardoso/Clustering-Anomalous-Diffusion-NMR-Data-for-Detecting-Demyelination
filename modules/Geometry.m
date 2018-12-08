@@ -7,11 +7,11 @@ clear
 geometry_type = input ('Type of Geometry: ','s');
 % m - monospheres; a - axons; b - axons 256
 N =input ('Number of spheres/axons: ');
-% up to 1000;
+% up to 1000. In the case of spheres, 500 have been used; as for the axons, the respective submodule only outputs 256 axons.
 PHI =input ('Fraction of Occupancy (packing): ');
 % real between 0 and 1 - occupancy / degree of myelination
 RES =input ('Voxel Resolution: ');
-% ex.: 256
+% so far, only used 256.
 filename =input ('File name: ','s');
 % including the extension ('.mat')
 
