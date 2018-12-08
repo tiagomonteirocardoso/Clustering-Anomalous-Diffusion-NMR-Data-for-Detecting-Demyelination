@@ -1,3 +1,11 @@
+% Submodule for the creation of simulation spaces consisting of axons
+% Axons are randomly distributed inside a cubic space, following a 4-step algorithm (r1, r2, r3 and r4). 
+% Radii for 256 fibers are provided in the code (fist group, commented, is for the distribution of radii found in the splenium;
+% second group comprises the distribution of fibers as observed in the posterior body).
+
+% (C) 2018 Tiago Monteiro Cardoso
+% Last update: 2018-12-08
+
 function bin_matrix = axons_256( N,PHI,RES )
 
 % Fibers' Radii in coordinates (Splenium: 256 fibers) 8.8 for 80!!! /  8.1
@@ -48,7 +56,7 @@ f = 0;
 for i=1:num_circles
     for j=1:num_circles
         if i < j
-% The best up to now? No
+% The best one so far:
             f = f + (10000)*((1 - ((C(i,1)-C(j,1))^2 + (C(i,2)-C(j,2))^2)/((r4(i)+r4(j))^2))^4)*heaviside(1 - (((C(i,1)-C(j,1))^2 + (C(i,2)-C(j,2))^2)^(1/2))/(r4(i)+r4(j)));
             
 % ?
@@ -231,6 +239,8 @@ for n=1:N
     end
 end
 
+
+% Demyelinating the fibers
 function outvec=demyelin(invec)
     
     outvec = invec;
@@ -267,8 +277,7 @@ function outvec=demyelin(invec)
 %                 nh=[c1-1,c1,c1+1];
 %             end
             
-%             acrescimo para restringir a inflamacao no sentido
-%             longitudinal
+%             added in order to restrict demyelination on the longitudinal direction
             
 %             if c1<(RES/2)
 %                 nh=[c1,c1+1];
