@@ -1,3 +1,10 @@
+% Submodule for determining connectivity of the simulation spaces. Attributes numbers beginning from 1001 to the cells
+% located in pore regions. If two cells are located in the same pore cavity (i.e., they are connected), they are assigned the 
+% same number.
+
+% (C) 2018 Tiago Monteiro Cardoso
+% Last update: 2018-12-08
+
 function outmatrix = burning_algo( matrix,resol )
 
 connectmatrix = matrix;
