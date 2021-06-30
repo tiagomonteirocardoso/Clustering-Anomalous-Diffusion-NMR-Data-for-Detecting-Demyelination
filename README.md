@@ -1,4 +1,4 @@
-# Detecting-Demyelination-with-Anomalous-Diffusion-NMR
+# Clustering Anomalous-Diffusion-NMR Data for Detecting-Demyelination
 The project was part of the research done for my Master's Degree in Physics. It aims at demonstrating how Nuclear Magnetic 
 Resonance - NMR and anomalous diffusion theory can be used for the detection of demyelination in white matter axonal tracts. 
 Particularly, the anomalous diffusion theory parameters D and gamma were evaluated and were shown to be potential biomarkers 
